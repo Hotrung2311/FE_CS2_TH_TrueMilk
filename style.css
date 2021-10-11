@@ -1,0 +1,304 @@
+.body {
+    /* background-color: burlywood; */
+}
+
+* {
+    font-family: 'Varela Round', sans-serif;
+    /* color: #103a71; */
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title1 {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    white-space: nowrap;
+    color: #103a71;
+}
+
+.navbar .navbar-nav.navbar-right li a {
+    color: #103a71;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-nav>li {
+    padding-right: 20px;
+}
+
+.container>img {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.menu div {
+    font-size: 14px;
+    background-color: white;
+}
+
+.dropdown-menu {
+    background-color: white;
+    color: #103a71;
+}
+
+.product {
+    position: relative;
+    padding: 80px 0;
+    display: block;
+    background: url(https://www.thmilk.vn/wp-content/themes/wp-th/assets/images/index/bg-danhmuc.jpg) no-repeat left top;
+    background-color: blue;
+    background-size: cover;
+}
+
+
+/* .product-title {
+    text-align: center;
+} */
+
+.product .card {
+    width: 225px;
+    height: 300px;
+}
+
+.product .card-img-top {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.product .card-text {
+    text-align: center;
+    font-size: 12.5px;
+}
+
+.carousel .carousel-control-prev-icon {
+    /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url("https://img.icons8.com/ios/50/000000/back.png");
+}
+
+.carousel .carousel-control-next-icon {
+    /* change fill="currentColor" to %23fff to make it white  */
+    background-image: url("https://img.icons8.com/ios/50/000000/forward--v1.png");
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    /* Use to adjust size of icons */
+    width: 3rem;
+    height: 3rem;
+}
+
+.banner .carousel-control-prev {
+    /* margin-left: -130px; */
+    padding-left: -130px;
+    /* background-color: violet; */
+}
+
+.banner .carousel-control-next {
+    /* margin-right: -130px; */
+    padding-right: -130px;
+    /* background-color: violet; */
+}
+
+.info .btn {
+    height: 45px;
+    width: 150px;
+    color: white;
+    background-color: #103a71;
+    margin-top: 10px;
+}
+
+.divide-line {
+    background-color: #d6d4d4;
+    height: 1.5px;
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+    border: solid 1px white;
+}
+
+.footer p {
+    font-size: 11px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.extra-info p {
+    font-size: 15px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #103a71 !important;
+}
+
+.news {
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.health-corner {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+div.owl-item .card {
+    text-align: center;
+    margin: auto;
+}
+
+.slider2 div.owl-item:hover {
+    z-index: 2;
+    -webkit-box-shadow: 0 0 8px #aaa;
+    box-shadow: 0 0 8px #aaa;
+}
+
+a:hover,
+div.link:hover {
+    text-decoration: none;
+    color: rgb(163, 137, 90);
+}
+
+
+/* general */
+
+a {
+    color: #103a71;
+    transition-duration: 0.7s;
+}
+
+a:hover {
+    color: rgb(163, 137, 90);
+}
+
+
+/* general */
+
+
+/* information */
+
+.information button,
+.information i {
+    font-weight: bolder;
+}
+
+.information button:hover {
+    background-color: white;
+    color: #103a71;
+    border: solid 1px #103a71;
+}
+
+
+/* information */
+
+
+/*  */
+
+a.nav-link {
+    /* color: #103a71; */
+    /* transition-duration: 0.7s; */
+    color: red;
+}
+
+
+/* product */
+
+.slider1 .owl-item div {
+    padding-top: 10px;
+    color: #103a71;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    transition-duration: 0.7s;
+}
+
+.slider1 .owl-item:hover div {
+    color: rgb(163, 137, 90);
+}
+
+
+/* product */
+
+.slider1 .owl-prev,
+.slider1 .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider1 .owl-prev {
+    left: -3rem;
+}
+
+.slider1 .owl-next {
+    right: -3rem;
+}
+
+
+/* features */
+
+.product .card a div {
+    font-size: 12px;
+    color: #103a71;
+    font-weight: bolder;
+    transition-duration: 0.7s;
+}
+
+.product .card:hover a div {
+    color: rgb(163, 137, 90);
+}
+
+
+/* features */
+
+
+/* health-corner */
+
+.health-corner .card a {
+    font-weight: bolder;
+    color: #103a71;
+    transition-duration: 0.7s;
+}
+
+.health-corner .card:hover a {
+    color: rgb(163, 137, 90);
+}
+
+
+/* health-corner */
+
+
+/* News */
+
+.news a {
+    font-size: 19px;
+    font-weight: bolder;
+    color: #103a71;
+}
+
+.post a {
+    transition-duration: 0.7s;
+}
+
+.post:hover a {
+    color: rgb(163, 137, 90);
+}
+
+
+/* footer */
+
+.footer a {
+    color: gray;
+    transition-duration: 0.7s;
+}
+
+.footer a:hover {
+    color: rgb(163, 137, 90);
+}
+
+
+/* footer */
